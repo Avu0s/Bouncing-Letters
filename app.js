@@ -42,7 +42,7 @@ function nextLetter() {
   letter.textContent = Alphabets[i];
   i++;
   //change button text
-  if (letter.textContent.length != 'Letters') {
+  if (letter.textContent.length != 'English Letters') {
     btn.textContent = "Next";
   }
 }
